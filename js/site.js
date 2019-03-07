@@ -3,6 +3,6 @@ jQuery( function( $ ) {
   $( 'html' ).removeClass( 'nojs' );
   $( 'html' ).addClass( 'hasjs' );
 } );
-document.getElementById( "input-submit" ).addEventListener( "click", function() {
-  alert( "Request Received: Watch your brand grow!" );
+document.getElementById( "submit" ).addEventListener( "click", function() {
+  alert( "Email Recieved: Watch your brand grow!" );
 } );
