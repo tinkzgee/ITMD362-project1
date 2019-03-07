@@ -232,7 +232,7 @@ h1 {
   text-transform: uppercase;
 }
 h2 {
-  font-size: 1.718em;
+  font-size: 1.618em;
   line-height: 1.618em;
   text-align: center;
   font-family: "Glegoo", serif;
@@ -245,6 +245,19 @@ h3 {
   font-family: "lobster", serif;
   text-transform: uppercase;
 }
+
+
+section {
+	text-align: left;
+	font-family: Arvo;
+}
+
+body {
+    background-color: #FF69B4;
+  }
+
+
+
 /* Computers, Large screens */
 
 @media screen and (min-width: 996px) {
