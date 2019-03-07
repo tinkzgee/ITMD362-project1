@@ -289,3 +289,12 @@ label {
   }
 
 }
+
+/* Small Devices, Phones */
+@media screen and (max-width: 360px) {
+
+  body {
+    background-color: #ba55d3;
+  }
+
+    }
