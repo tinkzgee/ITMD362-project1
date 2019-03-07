@@ -293,6 +293,28 @@ label {
 /* Small Devices, Phones */
 @media screen and (max-width: 360px) {
 
+  label {
+  display: inline-block;
+  padding-top: 0.297em;
+  padding-bottom: 0.297em;
+}
+
+ p {
+    width: 100%;
+  }
+     
+  input[type=email] {
+    width: 60%; 
+  }
+  
+  input[type=text] {
+    width: 60%;
+  }
+  
+  input[type=radio] {
+    width: 10%; 
+  }
+
   body {
     background-color: #ba55d3;
   }
