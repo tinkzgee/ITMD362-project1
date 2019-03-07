@@ -245,38 +245,35 @@ h3 {
   font-family: "lobster", serif;
   text-transform: uppercase;
 }
-
-
 section {
-	text-align: left;
-	font-family: Arvo;
+  text-align: left;
+  font-family: Arvo;
 }
-
 body {
-    background-color: #FF69B4;
-  }
-
+  background-color: #FF69B4;
+}
 #logo {
   width: 100%;
-  /*height: 4.632em; */ /* 101.913px */
+  /*height: 4.632em; */
+  /* 101.913px */
 }
-
 p {
-	font-family: Glegoo;
- 	margin-top: 0.6em; /* 13.197px */
-  margin-bottom: 0.6em; /* 13.197px */
-  padding-top: 0.129em; /* 2.849px */
-  padding-bottom: 0.129em; /* 2.849px */	
+  font-family: Glegoo;
+  margin-top: 0.6em;
+  /* 13.197px */
+  margin-bottom: 0.6em;
+  /* 13.197px */
+  padding-top: 0.129em;
+  /* 2.849px */
+  padding-bottom: 0.129em;
+  /* 2.849px */
   line-height: 2.01em;
-
 }
-
 label {
   display: inline-block;
   padding-top: 0.297em;
   padding-bottom: 0.297em;
 }
-
 /* Computers, Large screens */
 
 @media screen and (min-width: 996px) {
@@ -287,36 +284,28 @@ label {
     text-align: center;
     background-color: #00bfff;
   }
-
 }
-
 /* Small Devices, Phones */
+
 @media screen and (max-width: 360px) {
-
   label {
-  display: inline-block;
-  padding-top: 0.297em;
-  padding-bottom: 0.297em;
-}
-
- p {
+    display: inline-block;
+    padding-top: 0.297em;
+    padding-bottom: 0.297em;
+  }
+  p {
     width: 100%;
   }
-     
   input[type=email] {
-    width: 60%; 
+    width: 60%;
   }
-  
   input[type=text] {
     width: 60%;
   }
-  
   input[type=radio] {
-    width: 10%; 
+    width: 10%;
   }
-
   body {
     background-color: #ba55d3;
   }
-
-    }
+}
