@@ -237,27 +237,3 @@ textarea {
 }
 /* End Form portion of Normalize CSS */
 
-/* Responsive Media */
-
-img, audio, video {
-  display: block;
-  max-width: 100%;
-}
-
-
-/* ===== BASE STYLES ===== */
-
-/*
-  Major Sixth Modular Scale:
-  http://www.modularscale.com/?22&px&1.667&web&text
-*/
-
-html {
-  font-size: 1.375em;
-  /* 22px */
-  line-height: 1.182em;
-  /* 26px / ~ 120% */
-  padding: 1.182em;
-  /* 26px / ~ 120% */
-  text-rendering: optimizeLegibility;
-}
