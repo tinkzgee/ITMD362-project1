@@ -76,6 +76,7 @@ p {
   padding-bottom: 0.129em;
   /* 2.849px */
   line-height: 2.01em;
+  text-align: center;
 }
 label {
   text-align: left;
@@ -141,6 +142,8 @@ label {
 
   #submit {
     text-align: center;
+    list-style-position: center;
+
 
   }
   p {
