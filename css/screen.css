@@ -4,8 +4,6 @@ img, audio, video {
   display: block;
   max-width: 100%;
 }
-
-
 /* ===== BASE STYLES ===== */
 
 /*
@@ -22,7 +20,6 @@ html {
   /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
 }
-
 /* ===== LAYOUT STYLES ====== */
 
 h1 {
@@ -50,9 +47,7 @@ section {
   text-align: center;
   font-family: "Arvo", 'Open Sans', sans-serif;
 }
-
-ol{
-
+ol {
   list-style: none;
   text-align: left;
 }
@@ -84,8 +79,7 @@ label {
   padding-bottom: 0.297em;
   font-family: 'Raleway', 'Lato', sans-serif;
 }
-
-#submit{
+#submit {
   font-family: "Arvo", 'Open Sans', sans-serif;
   font-size: 1.18em;
 }
@@ -104,64 +98,55 @@ label {
     padding-top: 0.297em;
     padding-bottom: 0.297em;
   }
-
   #logo {
-  width: 90%;
-  align-self: center;
-  /*height: 4.632em; */
-  /* 101.913px */
+    width: 90%;
+    align-self: center;
+    /*height: 4.632em; */
+    /* 101.913px */
+  }
 }
-
-}
-
 /*medium-screens*/
 
 @media screen and (max-width: 668px) {
   body {
     background-color: #833AB4;
   }
-
   label {
     text-align: left;
     padding-top: 0.297em;
     padding-bottom: 0.297em;
   }
-
-#logo {
-  width: 90%;
-  height: 90%;
-  align-self: center;
-  /*height: 4.632em; */
-  /* 101.913px */
-}
-
-
-
-/* Small Devices, Phones */
-
-@media screen and (max-width:360px) {
-label {
-display : inline-block;
-padding-top : 0.297em;
-padding-bottom : 0.297em;
-}
-#submit {
-text-align : center;
-}
-p {
-width : 100%;
-text-align : center;
-}
-input[type="email"] {
-width : 60%;
-}
-input[type="text"] {
-width : 60%;
-}
-input[type="radio"] {
-width : 10%;
-}
-body {
-background-color : #C13584;
-}
-}
+  #logo {
+    width: 90%;
+    height: 90%;
+    align-self: center;
+    /*height: 4.632em; */
+    /* 101.913px */
+  }
+  /* Small Devices, Phones */
+  @media screen and (max-width:360px) {
+    label {
+      display: inline-block;
+      padding-top: 0.297em;
+      padding-bottom: 0.297em;
+    }
+    #submit {
+      text-align: center;
+    }
+    p {
+      width: 100%;
+      text-align: center;
+    }
+    input[type="email"] {
+      width: 60%;
+    }
+    input[type="text"] {
+      width: 60%;
+    }
+    input[type="radio"] {
+      width: 10%;
+    }
+    body {
+      background-color: #C13584;
+    }
+  }
