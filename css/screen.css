@@ -139,33 +139,29 @@ label {
 
 /* Small Devices, Phones */
 
-@media screen and (max-width: 360px) {
-  label {
-    display: inline-block;
-    padding-top: 0.297em;
-    padding-bottom: 0.297em;
-  }
-
-  #submit {
-    text-align: center;
-    list-style-position: center;
-
-
-  }
-  p {
-    width: 100%;
-    text-align: center;
-  }
-  input[type=email] {
-    width: 60%;
-  }
-  input[type=text] {
-    width: 60%;
-  }
-  input[type=radio] {
-    width: 10%;
-  }
-  body {
-    background-color: #C13584;
-  }
+@media screen and (max-width:360px) {
+label {
+display : inline-block;
+padding-top : 0.297em;
+padding-bottom : 0.297em;
+}
+#submit {
+text-align : center;
+}
+p {
+width : 100%;
+text-align : center;
+}
+input[type="email"] {
+width : 60%;
+}
+input[type="text"] {
+width : 60%;
+}
+input[type="radio"] {
+width : 10%;
+}
+body {
+background-color : #C13584;
+}
 }
