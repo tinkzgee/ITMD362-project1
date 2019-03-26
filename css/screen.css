@@ -50,11 +50,18 @@ section {
   text-align: center;
   font-family: Arvo;
 }
+
+ol{
+
+  list-style: none;
+  text-align: left;
+}
 body {
   background-color: #405DE6;
 }
 #logo {
   width: 90%;
+  align-self: center;
   /*height: 4.632em; */
   /* 101.913px */
 }
@@ -71,7 +78,7 @@ p {
   line-height: 2.01em;
 }
 label {
-  display: inline-block;
+  text-align: left;
   padding-top: 0.297em;
   padding-bottom: 0.297em;
 }
@@ -84,6 +91,11 @@ label {
     margin: auto;
     text-align: center;
     background-color: #5851DB;
+  }
+  label {
+    text-align: left;
+    padding-top: 0.297em;
+    padding-bottom: 0.297em;
   }
 
   #logo {
@@ -100,6 +112,12 @@ label {
 @media screen and (max-width: 668px) {
   body {
     background-color: #833AB4;
+  }
+
+  label {
+    text-align: left;
+    padding-top: 0.297em;
+    padding-bottom: 0.297em;
   }
 
 #logo {
@@ -120,8 +138,14 @@ label {
     padding-top: 0.297em;
     padding-bottom: 0.297em;
   }
+
+  #submit {
+    text-align: center;
+
+  }
   p {
     width: 100%;
+    text-align: center;
   }
   input[type=email] {
     width: 60%;
